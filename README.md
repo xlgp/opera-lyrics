@@ -1,37 +1,38 @@
 # 戏曲唱词
 
-#### 介绍
-主要存放黄梅戏，越剧等戏曲唱词
+> ### 介绍
+主要存放黄梅戏，越剧等戏曲唱词．
 
-#### 软件架构
-软件架构说明
+> ### LRC文件格式
+```
+ [ti:标题]
+ [jz:剧种]
+ [jm:剧目]
+ [offset:-1]
+ [00:01.02]唱词１
+```
 
+> ### LRC demo
+```
+[ti:一月思念]
+[jz:黄梅戏]
+[jm:龙女]
+[offset:-1]
+[00:09.69]一月思念如痴如醉
+[00:14.82]相爷带的佳音归
+[00:22.83]他才也高貌也美
+[00:28.10]新点的状元他是谁
+[00:38.90]原来就是那一位
+[00:44.15]怪不得喜在公主的心
+[00:47.91]也笑上我珍姑的眉
+[01:00.57]一月思念如痴如醉
+[01:05.86]相爷带的佳音归
+[01:14.28]他才也高貌也美
+[01:19.39]新点的状元他是谁
+[01:30.64]原来就是那一位
+[01:36.23]怪不得喜在公主的心
+[01:40.34]也笑上我珍姑的眉
+```
 
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+> ### 如何制作唱词LRC文件
+[制作唱词https://xlgp.gitee.io/changci.html](https://xlgp.gitee.io/changci.html)
