@@ -1,9 +1,13 @@
 # 戏曲唱词
 
-> ### 介绍
-主要存放黄梅戏，越剧等戏曲唱词．详情请查看[戏曲唱词信息](https://xlgp.gitee.io/opera-lyrics-doc/#/).
+### 字幕版
 
-> ### LRC文件格式
+> ### 介绍
+>
+> 主要存放黄梅戏，越剧等戏曲唱词．详情请查看[戏曲唱词信息](https://xlgp.gitee.io/opera-lyrics-doc/#/).
+
+> ### LRC 文件格式
+
 ```
  [ti:标题]
  [jz:剧种]
@@ -14,6 +18,7 @@
 ```
 
 > ### LRC demo
+
 ```
 [ti:一月思念]
 [jz:黄梅戏]
@@ -35,5 +40,6 @@
 [01:40.34]也笑上我珍姑的眉
 ```
 
-> ### 如何制作唱词LRC文件
-[制作唱词https://xlgp.gitee.io/changci.html](https://xlgp.gitee.io/changci.html)
+> ### 如何制作唱词 LRC 文件
+>
+> [制作唱词 https://xlgp.gitee.io/changci.html](https://xlgp.gitee.io/changci.html)
