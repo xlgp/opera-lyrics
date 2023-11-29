@@ -23,6 +23,10 @@ generateAllLrc(){
     addNewLine
 }
 
+generateNewNameList(){
+    ls -l --sort=t -R --full-time --time-style=long-iso -G -g > full-name.list
+}
+
 print(){
     echo ${ALL_LRC_NAME}"数据:"
     grep ^$ ${ALL_LRC_NAME}|wc
@@ -36,7 +40,8 @@ printEnd(){
     echo "替换为空"
 }
 
-generateNameList
-generateAllLrc
-print
-printEnd
+# generateNameList
+# generateAllLrc
+# print
+# printEnd
+ $1
