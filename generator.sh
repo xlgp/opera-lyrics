@@ -24,7 +24,7 @@ generateAllLrc(){
 }
 
 generateNewNameList(){
-    ls -l --sort=t -R --full-time --time-style=long-iso -G -g > full-name.list
+    ls -l -R --full-time --time-style=long-iso -G -g > full-name.list
 }
 
 print(){
