@@ -44,4 +44,8 @@ printEnd(){
 # generateAllLrc
 # print
 # printEnd
+ gl(){
+    generateNameList
+    generateNewNameList
+ }
  $1
