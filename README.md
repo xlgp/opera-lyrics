@@ -2,42 +2,43 @@
 
 ### 字幕版
 
-> ### 介绍
->
-> 主要存放黄梅戏，越剧等戏曲唱词．详情请查看[戏曲唱词信息](https://xlgp.gitee.io/opera-lyrics-doc/#/).
+> 主要存放黄梅戏，越剧等戏曲唱词。
 
-> ### LRC 文件格式
+### LRC 文件格式
 
 ```
- [ti:唱段名]
- [oti:唱段名]
- [jz:剧种]
- [jm:剧目]
- [ojm:剧目]
- [offset:-1]
- [bz:备注] //可选
- [00:01.02]唱词１
- [00:20.34]<结束>
+[ti:可发送唱段名]
+[oti:原始唱段名]
+[jz:剧种]
+[jm:可发送剧目名]
+[ojm:原始剧目名]
+[ver:版本]
+[offset:-9]//时差
+[by:唱词制作者]
+[keys:唱段关键词]
+[bz:备注] //可选
+[00:01.02]唱词１
+[00:20.34]<结束>
 ```
 
-> ### LRC demo
-
+### LRC 示例
 ```
-[ti:三年日月浓如酒]
-[oti:三年日月浓如酒]
+[ti:中状元和手提羊毫]
+[oti:中状元和手提羊毫]
 [jz:黄梅戏]
-[jm:牛郎织女]
-[ojm:牛郎织女]
-[offset:-6]
-[00:07.21]三年日月浓✨如✨酒
-[00:38.23]乡中人好水也甜
-[00:52.07]我只说愿作春蚕把丝吐尽
-[01:10.42]一生终✨老在人✨间
-[01:20.45]有谁知花正红时寒风起
-[02:02.07]再要回头难上难
-[02:30.04]<结束>
+[jm:女驸马]
+[ojm:女驸马]
+[ver:安徽省黄]
+[offset:-9]
+[by:戏曲字幕]
+[keys:为救李郎]
+[00:19.00]为救李郎离家园
+[00:23.89]谁料皇榜中状元
+[00:33.64]中状元着红袍
+[00:36.16]帽插宫花好新鲜
+[02:32.80]<结束>
 ```
-
 > ### 如何制作唱词 LRC 文件
->
-> [制作唱词 https://xlgp.gitee.io/changci.html](https://xlgp.gitee.io/changci.html)
+[新版 https://xlgp.github.io/opera-lyrics-builder/](https://xlgp.github.io/opera-lyrics-builder/)
+
+[旧版 https://xlgp.github.io/opera-lyrics-builder/changci.html](https://xlgp.github.io/opera-lyrics-builder/changci.html)
