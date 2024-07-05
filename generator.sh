@@ -10,8 +10,7 @@ generateNameList() {
 
 #添加换行
 addNewLine(){
-    # sed -i 's/\w\[ti/\n[ti/g' ${ALL_LRC_NAME}
-    sed -i '10,$s/\[ti/\n\n[ti/g' ${ALL_LRC_NAME}
+    sed -i '10,$s/\[ti/\n[ti/g' ${ALL_LRC_NAME}
 }
 
 generateAllLrc(){
@@ -40,12 +39,23 @@ printEnd(){
     echo "替换为空"
 }
 
-# generateNameList
-# generateAllLrc
-# print
-# printEnd
+fetchPush(){
+    for origin in `git remote`
+    do
+        git fetch ${origin}
+        git push ${origin}
+    done
+}
  gl(){
     generateNameList
     generateNewNameList
+ }
+
+ all(){
+    generateAllLrc
+ }
+
+ fp(){
+    fetchPush
  }
  $1
