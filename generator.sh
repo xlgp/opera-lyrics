@@ -58,4 +58,14 @@ fetchPush(){
  fp(){
     fetchPush
  }
+
+fetch(){
+    for origin in `git remote`
+    do
+        git fetch ${origin}
+    done
+}
+ f(){
+    fetch
+}
  $1
