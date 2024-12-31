@@ -4,7 +4,6 @@ ALL_LRC_NAME=all.lrc
 
 #生成唱段名列表
 generateNameList() {
-    echo "生成唱段名列表"
     find . -type f -name "*.lrc" |grep -v ${ALL_LRC_NAME} > name.list
 }
 
@@ -47,11 +46,14 @@ fetchPush(){
     done
 }
  gl(){
+    echo "生成旧版唱段目录"
     generateNameList
+    echo "生成唱段目录"
     generateNewNameList
  }
 
  all(){
+    echo "生成唱段总列表"
     generateAllLrc
  }
 
@@ -68,4 +70,16 @@ fetch(){
  f(){
     fetch
 }
+
+help(){
+    echo "  all   generateAllLrc"
+    echo "  gl    generateNameList and generateNewNameList"
+    echo "  fp    fetchPush"
+    echo "  h     show help info"
+}
+
+h(){
+    help
+}
+
  $1
