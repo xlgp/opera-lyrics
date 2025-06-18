@@ -41,10 +41,13 @@ printEnd(){
 fetchPush(){
     for origin in `git remote`
     do
+        echo -e "\\nfetch from \e[33m"${origin}"\e[0m"
         git fetch ${origin}
+        echo -e "push to \e[33m"${origin}"\e[0m"
         git push ${origin}
     done
 }
+
  gl(){
     echo "生成旧版唱段目录"
     generateNameList
