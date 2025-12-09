@@ -9,7 +9,8 @@ generateNameList() {
 
 #添加换行
 addNewLine(){
-    sed -i '10,$s/\[ti/\n[ti/g' ${ALL_LRC_NAME}
+	TMP_FILE_NAME=tmp.lrc
+    sed '10,$s/\[ti/\n[ti/g' ${ALL_LRC_NAME} > ${TMP_FILE_NAME} && mv ${TMP_FILE_NAME} ${ALL_LRC_NAME}
 }
 
 generateAllLrc(){
