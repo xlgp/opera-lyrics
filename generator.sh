@@ -76,7 +76,7 @@ f() {
 
 generate_git_log() {
     # 生成最近 6 个月的唱段新增和更新日志
-    git log --grep="^唱段：\(新增\|更新\)" --name-status --stat --since="6 months ago" > commit.log
+    git log --grep="^唱段：\(新增\|更新\)" --name-status --stat --since="6 months ago" -- "*.lrc" | grep -v "all.lrc" > commit.log
 }
 
 log() {
